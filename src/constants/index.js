@@ -19,10 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  filmoteka,
+  phonebook,
   threejs,
+  petsproject,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Node.js Developer",
     icon: creator,
   },
 ];
@@ -81,6 +81,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -89,17 +93,13 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -116,91 +116,86 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Fullstack Developer",
+    company_name: "Freelance",
+    icon: "",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2022 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing Pet-projects for portfolio and work experience",
+      "Studing new technologies",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer(student)",
+    company_name: "IT School GoIT",
+    icon: "",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2021 - November 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Studying JS, React, Node.js",
+      "Developing and maintaining web applications",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in team-projects and work with other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Medical psychologist",
+    company_name: "Private practice",
+    icon: "",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2013 - 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Individual psychological consultations",
+      "Psychological counseling of patients, provides assistance to patients and their relatives in solving personal, professional and domestic psychological problems",
+      "Conducting psychodiagnostic research",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Medical psychologist",
+    company_name: "Zhytomyr Regional Psychiatric Clinic №1",
+    icon: "",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2002 - 2009",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Psychoprophylaxis and psychocorrection",
+      "Psychological counseling of patients, provides assistance to patients and their relatives in solving personal, professional and domestic psychological problems",
+      "Conducting psychodiagnostic research",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pets House",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Team project. Full-stack application for people with pets. Used: React, Redux, RTK Query, react-router-dom, React i18n, Node.JS,Express, MongoDB, Mongoose, Formik, Yup, SASS, Material-UI.",
     tags: [
       {
         name: "react",
@@ -211,20 +206,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sass",
         color: "pink-text-gradient",
       },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: petsproject,
+    source_code_link: "https://pets-house-client.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Filmoteka",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Team project about searching for movies, and adding favorite movies to a personal library. Used: pure JS, npm packages and SCSS. Team-project.                                                                 Role: Team Lead.",
     tags: [
       {
-        name: "react",
+        name: "js",
         color: "blue-text-gradient",
       },
       {
@@ -236,29 +235,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: filmoteka,
+    source_code_link: "https://romasamkov.github.io/project-filmoteka/#",
   },
   {
-    name: "Trip Guide",
+    name: "Phonebook",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Application with sounds for saving phone numbers. Used: React, Create React App, Redux, Redux Toolkit, redux-persist, react-router-dom, Formik, Yup, Styled Components, Material-UI.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: phonebook,
+    source_code_link:
+      "https://romasamkov.github.io/goit-react-hw-08-phonebook/",
   },
 ];
 
