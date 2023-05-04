@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png";
 import petsproject from "./petsproject.png";
 import filmoteka from "./filmoteka.png";
 import phonebook from "./phonebook.png";
+import gamejs from "./Game-JS.png";
+import searchimages from "./searchimages.png";
+import reactapp from "./reactapp.png";
 
 export {
   logors,
@@ -61,4 +64,7 @@ export {
   filmoteka,
   phonebook,
   petsproject,
+  gamejs,
+  searchimages,
+  reactapp,
 };

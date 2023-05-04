@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   filmoteka,
   phonebook,
   threejs,
   petsproject,
+  gamejs,
+  searchimages,
+  reactapp,
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +41,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Developer",
     icon: web,
   },
   {
@@ -123,9 +122,22 @@ const experiences = [
     date: "Dec 2022 - present",
     points: [
       "Developing and maintaining web applications",
+      "Developing projects for portfolio and work experience",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Developing Pet-projects for portfolio and work experience",
       "Studing new technologies",
+    ],
+  },
+  {
+    title: "Front-End Developer(student)",
+    company_name: "EPAM Front-End Self-Paced Online Program",
+    icon: "",
+    iconBg: "#E6DEDD",
+    date: "October 2022 - May 2023",
+    points: [
+      "Studying HTML, CSS, JavaScript, OOP Intro",
+      "Developing and maintaining web applications",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Studying: Flexbox, CSS Grid etc. ",
     ],
   },
   {
@@ -259,6 +271,69 @@ const projects = [
     image: phonebook,
     source_code_link:
       "https://romasamkov.github.io/goit-react-hw-08-phonebook/",
+  },
+  {
+    name: "Game-JS",
+    description:
+      "2D game with vanilla JavaScript, HTML5, CSS3 and HTML Canvas !",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gamejs,
+    source_code_link: "https://romasamkov.github.io/game-js/",
+  },
+  {
+    name: "Search Images",
+    description:
+      "Search Images application about searching for images. Used: React, Create React App, react-dom, react-loader-spinner, Styled Components.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-icons",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: searchimages,
+    source_code_link: "https://romasamkov.github.io/goit-react-hw-04-images/",
+  },
+  {
+    name: "React Projects",
+    description:
+      "This is my student draft while studying : Redux, HTTP requests in Redux, react-router-dom, used JSONPlaceholder - Free Fake REST API. This draft includes: book-add app (there is also a favorite book display page),voting and vote tallying app, post app (all posts, single post, and comments), post search app",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: reactapp,
+    source_code_link: "https://romasamkov.github.io/react-app/",
   },
 ];
 
