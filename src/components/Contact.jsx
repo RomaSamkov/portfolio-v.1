@@ -32,13 +32,12 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send({
-        from_name: form.name,
-        to_name: "",
-        from_email: form.email,
-        to_email: "",
-        message: form.message,
-      })
+      .sendForm(
+        "service_cpbhlcf",
+        "template_1kzao6u",
+        formRef.current,
+        "1k1C7IvbTzHhNiMhW"
+      )
       .then(
         () => {
           setLoading(false);
