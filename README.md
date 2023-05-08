@@ -1,10 +1,11 @@
 # In this project, I learned the following:
 
-- Vite
 - ThreeJS
 - React Three Fiber
 - TailwindCSS
 - Framer Motion
+- Email.js
+- Vite
 - Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
 - Make my code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
 - Implement sending emails through a form on the website
