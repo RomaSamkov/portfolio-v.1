@@ -11,4 +11,4 @@
 - Implement sending emails through a form on the website.
 - Ensure responsiveness across all devices and improve site's performance using Suspense and Preload.
 
-# This project based on youtube-video "JavaScript Mastery" (https://www.youtube.com/watch?v=0fYi8SGA20k)
+- This project based on youtube-video "JavaScript Mastery"
