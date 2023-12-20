@@ -38,12 +38,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a junior full-stack developer. Looking for a remote full-time job.
-        I am a good team player, as I have a huge experience working with people
-        in a team as well as I am a purposeful and fast learner. Also, I have
-        strong critical-thinking abilities and solid problem-solving skills. I
-        fell in love with coding at the first sight. I want to work in a company
-        that benefits people.
+        I am a junior front-end / full-stack developer. I am a good team player,
+        as I have a lot of experience working with people in a team as well and
+        I am a purposeful and fast learner. Also, I have strong
+        critical-thinking abilities and solid problem-solving skills. I want to
+        work in a company where I can develop as a professional and bring real
+        results and tangible benefits to the company and people.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
