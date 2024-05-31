@@ -27,36 +27,36 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
 
-    emailjs
-      .sendForm(
-        "service_cpbhlcf",
-        "template_1kzao6u",
-        formRef.current,
-        "1k1C7IvbTzHhNiMhW"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+  //   emailjs
+  //     .sendForm(
+  //       "service_cpbhlcf",
+  //       "template_1kzao6u",
+  //       formRef.current,
+  //       "1k1C7IvbTzHhNiMhW"
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("Thank you. I will get back to you as soon as possible.");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+  //         setForm({
+  //           name: "",
+  //           email: "",
+  //           message: "",
+  //         });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
-  };
+  //         alert("Ahh, something went wrong. Please try again.");
+  //       }
+  //     );
+  // };
 
   return (
     <div
@@ -71,7 +71,9 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          action="https://getform.io/f/pbmqwvob"
+          method="post"
+          // onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
